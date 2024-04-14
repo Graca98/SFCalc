@@ -1,0 +1,73 @@
+<!--
+ Copyright (C) 2021 Seggan
+ 
+ This file is part of SFCalc-Online.
+ 
+ SFCalc-Online is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ 
+ SFCalc-Online is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with SFCalc-Online.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="description"
+      content="Calculate the resources for any Slimefun item"
+    />
+
+    <title>SFCalc Online</title>
+
+    <script src="js/index.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <noscript>JavaScript is disabled! Please enable JavaScript.</noscript>
+    <h1>SFCalc Online</h1>
+    <br />
+    <datalist id="allitems"></datalist>
+    <form id="calculator">
+      <label for="id">Zadej item ID:</label>
+      <input type="search" list="allitems" id="id" autocomplete="off" />
+      <input type="number" id="amount" min="1" value="1" />
+      <input type="submit" value="Vypočítat" id="submit" />
+    </form>
+    <!-- <h6>
+      You can find all Slimefun item IDs
+      <a href="https://sf-items.walshy.dev/">here</a>
+    </h6> -->
+    <table hidden id="result-table">
+      <thead>
+        <tr>
+          <th class="nadpis">Item</th>
+          <th class="nadpis">Počet</th>
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
+    <!-- Cloudflare Pages Analytics -->
+    <!-- <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "8941f2576950457d903e6878a35607e1"}'
+    ></script> -->
+    <!-- Cloudflare Pages Analytics -->
+  </body>
+</html>

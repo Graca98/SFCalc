@@ -1,0 +1,130 @@
+/**
+ * Copyright (C) 2021 Seggan
+ * 
+ * This file is part of SFCalc-Online.
+ * 
+ * SFCalc-Online is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * SFCalc-Online is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with SFCalc-Online.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+* {
+  font-family: "Open Sans";
+  background-color: rgb(197, 197, 197);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* color: white; */
+}
+
+.nadpis {
+  background-color: #a5a5a5;
+}
+
+#id {
+  width: 240px;
+}
+
+h1,
+h6,
+form {
+  width: 45%;
+}
+
+h6 {
+  margin-top: 5px;
+}
+
+#amount {
+  width: 10%;
+}
+
+a,
+a:visited {
+  color: cornflowerblue;
+}
+
+form {
+  margin-bottom: 40px;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table {
+  width: 30%;
+}
+
+._0,
+._f {
+  color: #000000;
+}
+
+._1 {
+  color: #0000aa;
+}
+
+._2 {
+  color: #00aa00;
+}
+
+._3 {
+  color: #00aaaa;
+}
+
+._4 {
+  color: #aa0000;
+}
+
+._5 {
+  color: #aa00aa;
+}
+
+._6 {
+  color: #ffaa00;
+}
+
+._7 {
+  color: #aaaaaa;
+}
+
+._8 {
+  color: #555555;
+}
+
+._9 {
+  color: #5555ff;
+}
+
+._a {
+  color: #55ff55;
+}
+
+._b {
+  color: #55ffff;
+}
+
+._c {
+  color: #ff5555;
+}
+
+._d {
+  color: #ff55ff;
+}
+
+._e {
+  color: #ffff55;
+}
